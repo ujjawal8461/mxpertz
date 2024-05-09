@@ -1,0 +1,45 @@
+body {
+    font-family: "poppins";
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Optional: Centers the cards horizontally */
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(0, 24, 199);
+    background: linear-gradient(45deg, rgba(0, 24, 199, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.status-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.status-container p {
+    margin: 0;
+}
